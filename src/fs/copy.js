@@ -1,6 +1,5 @@
 import path from "path";
 import fsPromises from "fs/promises";
-import fs from "fs";
 
 export const copy = async () => {
     const src = path.resolve("files");
